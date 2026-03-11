@@ -1,22 +1,37 @@
-# Roadmap
+﻿# Roadmap
 
-## Phase 1 - Structure
-- Create repo scaffold
-- Create master outline
-- Create component outlines
-- Create issue templates and tracking files
+## Milestone 1 - Repo Foundation
+- [ ] Finalize repo structure
+- [ ] Improve README
+- [ ] Add issue templates
+- [ ] Add master outline
+- [ ] Add starter chapter files
 
-## Phase 2 - Drafting
-- Expand each component into detailed prose
-- Add commands, examples, checklists, and break/fix playbooks
-- Add cyber range labs designed for one VM at a time
+## Milestone 2 - Core Operations Content
+- [ ] Linux admin chapter
+- [ ] Terraform fundamentals
+- [ ] Azure infrastructure chapter
+- [ ] Server upgrade strategy
+- [ ] Vulnerability management workflow
 
-## Phase 3 - Validation
-- Review technical accuracy
-- Remove overlap and filler
-- Add operational workflows and templates
+## Milestone 3 - Security and Compliance
+- [ ] STIG introduction
+- [ ] Why systems break after hardening
+- [ ] STIG troubleshooting workflow
+- [ ] Compliance validation checklist
 
-## Phase 4 - Publishing
-- Export polished PDF
-- Export DOCX
-- Add diagrams and printable checklists
+## Milestone 4 - Labs and Scripts
+- [ ] Linux baseline lab
+- [ ] Service outage lab
+- [ ] Disk pressure lab
+- [ ] Terraform workflow lab
+- [ ] STIG validation lab
+- [ ] Bash and PowerShell examples
+- [ ] Azure CLI examples
+
+## Milestone 5 - Portfolio Polish
+- [ ] Mermaid diagrams
+- [ ] Assets and screenshots
+- [ ] Repo badges
+- [ ] Navigation cleanup
+- [ ] Interview-ready polish

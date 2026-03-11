@@ -1,26 +1,26 @@
-# Project Board
+﻿# Project Board
 
 ## Backlog
-- [ ] Expand all component outlines into draft chapters
-- [ ] Add command reference tables for Linux and Windows
-- [ ] Add Terraform Azure examples
-- [ ] Add STIG failure scenarios and break/fix notes
-- [ ] Add Nessus remediation workflow examples
-- [ ] Add server upgrade pre-check and rollback forms
-- [ ] Add single-VM cyber range lab pack
-- [ ] Add Bash, PowerShell, Azure CLI, and Terraform script library
-- [ ] Add validation checklist for each chapter
-- [ ] Add screenshots and diagrams where helpful
+- Create Linux core commands guide
+- Create Linux services guide
+- Create Linux networking guide
+- Create Terraform fundamentals chapter
+- Create Terraform state management chapter
+- Create Azure VM deployment chapter
+- Create Azure networking chapter
+- Create STIG troubleshooting chapter
+- Create vulnerability prioritization workflow
+- Create patch validation checklist
+- Create cyber range lab series
+- Create scripts and examples
+- Add diagrams
 
 ## In Progress
-- [ ] Build repo structure
-- [ ] Refine scope of each component
+- Repo foundation
+- README and documentation scaffold
 
 ## Review
-- [ ] Review chapter ordering
-- [ ] Confirm which sections should become checklists vs labs vs reference pages
+- Move completed docs here for final polish review
 
 ## Done
-- [x] Created repo scaffold
-- [x] Created master outline
-- [x] Created component-level outline files
+- Initial repo structure created

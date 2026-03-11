@@ -1,0 +1,25 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# PowerShell logs or output
+*.log
+
+# Images / exports
+*.pdf
+*.zip

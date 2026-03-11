@@ -1,68 +1,68 @@
-# Systems Admin First 90 Days Field Guide
+﻿# Systems Admin First 90 Days Field Guide
 
-Repo-ready outline and development tracker for a 12-week ramp-up plan covering:
+A portfolio-grade systems administration operations guide focused on:
 
 - Red Hat Linux administration
-- Windows server operations
-- Azure infrastructure
-- Terraform automation
+- Windows and Linux mixed infrastructure support
+- Azure infrastructure operations
+- Terraform infrastructure as code
 - STIG hardening and compliance
 - Server upgrades and patching
 - Vulnerability remediation
-- DevOps-style infrastructure management
+- Single-VM cyber range practice labs
 
-## Purpose
+## Why this project exists
 
-This repository is structured to help turn a rough training guide into a living operational manual. Each major component has its own outline, scope, deliverables, and tracking checklist so it can be expanded iteratively.
+This repository was created as a structured operational training system for a new Systems Administrator role in a mixed enterprise environment. The goal is to provide a practical, field-ready knowledge base that can be expanded over time into a real operational handbook.
 
-## Suggested workflow
+## Who this is for
 
-1. Start with `PROJECT_BOARD.md`
-2. Expand one component at a time under `docs/components/`
-3. Open GitHub issues for missing sections, labs, screenshots, and scripts
-4. Track improvements weekly using the 12-week plan
-5. Convert validated sections into polished PDF/Docx later
+- Systems Administrators
+- Infrastructure Engineers
+- DevOps / Platform Engineers
+- Security-minded administrators
+- Professionals supporting regulated or compliance-driven environments
 
-## Repository structure
+## Repository map
 
-```text
-systems-admin-field-guide-repo/
-├── README.md
-├── PROJECT_BOARD.md
-├── ROADMAP.md
-├── CONTRIBUTING.md
-├── .github/
-│   └── ISSUE_TEMPLATE/
-├── docs/
-│   ├── MASTER_OUTLINE.md
-│   └── components/
-│       ├── 01-first-30-days-survival-plan.md
-│       ├── 02-red-hat-linux-admin-skills.md
-│       ├── 03-terraform-learning-path.md
-│       ├── 04-azure-infrastructure-skills.md
-│       ├── 05-stig-hardening-guide.md
-│       ├── 06-server-upgrade-strategy.md
-│       ├── 07-vulnerability-management-workflow.md
-│       ├── 08-weekly-training-schedule.md
-│       ├── 09-cyber-range-lab-exercises.md
-│       ├── 10-scripts-to-learn-early.md
-│       ├── 11-daily-30-minute-practice-routine.md
-│       └── 12-six-month-team-expert-checklist.md
-└── scripts/
-    └── create_issue_list.ps1
-```
+- /docs â†’ field guide chapters
+- /labs â†’ hands-on single-VM exercises
+- /scripts â†’ admin automation examples
+- /diagrams â†’ architecture and workflow visuals
+- /assets â†’ images, banners, screenshots
 
-## Recommended next development order
+## Core focus areas
 
-1. First 30 Days Survival Plan
-2. Red Hat Linux Admin Skills
-3. STIG Hardening Guide
-4. Vulnerability Management Workflow
-5. Server Upgrade Strategy
-6. Terraform Learning Path
-7. Azure Infrastructure Skills
-8. Cyber Range Labs
-9. Scripts to Learn Early
-10. Weekly Training Schedule
-11. Daily Practice Routine
-12. Six-Month Expert Checklist
+- Linux troubleshooting
+- Terraform learning path
+- Azure administration
+- STIG troubleshooting
+- Patch / upgrade workflows
+- Vulnerability management
+- Practical single-VM training
+
+## Suggested development order
+
+1. STIG hardening
+2. Linux administration
+3. Terraform
+4. Azure
+5. Vulnerability management
+6. Labs and scripts
+7. Visual diagrams and repo polish
+
+## Roadmap
+
+See:
+- [ROADMAP.md](ROADMAP.md)
+- [PROJECT_BOARD.md](PROJECT_BOARD.md)
+- [docs/MASTER_OUTLINE.md](docs/MASTER_OUTLINE.md)
+
+## Status
+
+This repository is being developed as an operations-focused infrastructure learning and portfolio project.
+
+## Author
+
+Brian Hannigan
+GitHub: https://github.com/brianhannigan

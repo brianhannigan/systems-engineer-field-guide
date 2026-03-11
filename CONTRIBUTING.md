@@ -1,19 +1,26 @@
-# Contributing Guide
+﻿# Contributing
 
-## Editing rules
-- Keep each component focused on operational usefulness
-- Prefer checklists, workflows, and real commands over generic theory
-- Add examples that work in single-VM lab conditions when possible
-- Mark content needing validation with `TODO:`
-- Mark content that has been verified in lab with `VALIDATED:`
+## Writing rules
+- Prefer practical, field-ready content
+- Use clear headings
+- Include commands where relevant
+- Include validation steps
+- Include troubleshooting notes
+- Avoid filler content
+- Focus on operational usefulness
 
-## Chapter format
-Each chapter should eventually include:
+## Recommended chapter structure
 1. Purpose
-2. Why it matters on the job
-3. What to learn first
-4. Command references / workflows
-5. Common failure modes
-6. Hands-on practice steps
-7. Validation checklist
-8. Notes for future expansion
+2. Scope
+3. Key concepts
+4. Commands / workflows
+5. Common failure points
+6. Validation checklist
+7. Follow-up references
+
+## Commit style
+- docs: add linux services outline
+- docs: add terraform state management chapter
+- labs: add service outage lab
+- scripts: add bash health check
+- readme: improve project overview

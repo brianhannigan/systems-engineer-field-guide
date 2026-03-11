@@ -1,37 +1,76 @@
-# Master Outline
+﻿# Master Outline
 
-## 1. First 30 Days Survival Plan
-Focus: situational awareness, dependency mapping, operational risk discovery, documentation capture, and trust-building.
+## 01 - First 30 Days
+- Infrastructure discovery
+- Questions to ask
+- Red flags
+- Documentation checklist
 
-## 2. Red Hat Linux Administrator Skills
-Focus: commands, services, networking, storage, logging, security, shell workflow, and task automation.
+## 02 - Linux Administration
+- Core commands
+- Services
+- Networking
+- Storage
+- Logging
+- Security
+- Automation
 
-## 3. Terraform Learning Path
-Focus: core concepts, writing infrastructure code, state, modules, variable strategy, and Azure deployment examples.
+## 03 - Terraform
+- Fundamentals
+- State management
+- Modules
+- Azure examples
+- Troubleshooting
 
-## 4. Azure Infrastructure Skills
-Focus: VMs, networking, IAM/RBAC, monitoring, logging, security controls, backups, and recovery workflows.
+## 04 - Azure
+- VM deployment
+- Networking
+- IAM / RBAC
+- Monitoring
+- Security controls
 
-## 5. STIG Hardening Guide
-Focus: what STIGs are, why systems break, common misconfigurations, break/fix approach, compliance evidence, and testing.
+## 05 - STIG Hardening
+- What STIGs are
+- Why systems break
+- Common issues
+- Troubleshooting
+- Compliance workflow
 
-## 6. Server Upgrade Strategy
-Focus: discovery, compatibility checks, pre-checklists, backups/snapshots, test plans, change control, rollback, and validation.
+## 06 - Server Upgrades
+- Pre-upgrade checklist
+- Snapshot strategy
+- Rollback planning
+- Testing strategy
+- Post-upgrade validation
 
-## 7. Vulnerability Management Workflow
-Focus: scan review, prioritization, patching, exception handling, remediation validation, and reporting.
+## 07 - Vulnerability Management
+- Scan analysis
+- Prioritization
+- Patch workflow
+- Validation
 
-## 8. Weekly Training Schedule (12 Weeks)
-Focus: sequencing study and practice into a realistic ramp-up plan tied to job demands.
+## 08 - 12 Week Plan
+- Weeks 1-4
+- Weeks 5-8
+- Weeks 9-12
 
-## 9. Cyber Range Lab Exercises
-Focus: one-VM lab simulations for Linux admin, Terraform, Azure CLI, hardening, break/fix, and patching practice.
+## 09 - Cyber Range Labs
+- Linux baseline
+- Service failure
+- Disk pressure
+- Patching
+- STIG hardening
+- Terraform workflow
 
-## 10. Scripts to Learn Early
-Focus: Bash, PowerShell, Azure CLI, Terraform, and troubleshooting helpers that reduce repetitive admin effort.
+## 10 - Scripts
+- Bash
+- PowerShell
+- Terraform
+- Azure CLI
+- Troubleshooting helpers
 
-## 11. Daily 30 Minute Practice Routine
-Focus: repeatable skill-building cadence for commands, troubleshooting, automation, and documentation.
+## 11 - Daily Practice
+- 30-minute routine
 
-## 12. Six-Month Team Expert Checklist
-Focus: operational credibility, ownership, automation, documentation maturity, escalation handling, and continuous improvement.
+## 12 - Six Month Roadmap
+- Team expert checklist
