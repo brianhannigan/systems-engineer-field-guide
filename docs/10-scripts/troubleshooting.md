@@ -1,41 +1,40 @@
-﻿# Troubleshooting Scripts
+﻿# Troubleshooting
 
 ## Purpose
-Collect helpers for diagnosing common issues.
+Track script and command patterns that support repeatable troubleshooting.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Common Areas
+- failed services
+- ports not listening
+- disk pressure
+- bad config
+- network reachability
+- post-patch validation
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Example Linux Triage Commands
+```bash
+systemctl --failed
+journalctl -xe
+ss -tulpn
+df -h
+ip addr
+ip route
+```
 
-## Logs
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Example Windows Triage Commands
+```powershell
+Get-Service | Where-Object {$_.Status -ne "Running"}
+Get-WinEvent -LogName System -MaxEvents 50
+Get-PSDrive -PSProvider FileSystem
+ipconfig /all
+```
 
-## Connectivity
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Disk
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Performance
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Documentation Rules
+- record what symptom triggered investigation
+- record what command proved the issue
+- record what fixed it
+- record how success was validated
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- troubleshooting steps are repeatable
+- commands are organized by symptom or subsystem

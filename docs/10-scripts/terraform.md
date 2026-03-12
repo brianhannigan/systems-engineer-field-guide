@@ -1,41 +1,33 @@
-﻿# Terraform Scripts
+﻿# Terraform
 
 ## Purpose
-Track reusable Terraform snippets and examples.
+Document the practical Terraform command flow and safe usage habits.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Core Workflow
+```bash
+terraform fmt
+terraform validate
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+```
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Admin Rules
+- read the code before plan
+- read the plan before apply
+- understand target subscription or environment
+- avoid casual state manipulation
+- treat destroy carefully
 
-## Providers
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Common Notes to Capture
+- provider requirements
+- variable file usage
+- state location
+- module dependencies
+- output interpretation
 
-## Variables
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Resources
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Outputs
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Modules
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Validation
+- plan is understood
+- apply matches expectation
+- cleanup is deliberate

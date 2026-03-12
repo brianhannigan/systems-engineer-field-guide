@@ -1,41 +1,41 @@
-﻿# Bash Scripts
+﻿# Bash
 
 ## Purpose
-Collect useful Bash examples.
+Capture Bash patterns useful for Linux administration and health checks.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Common Use Cases
+- disk usage checks
+- failed service checks
+- uptime and host context
+- package status review
+- quick evidence capture
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Example Health Check
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-## Health Checks
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+echo "=== Hostname ==="
+hostname
 
-## Services
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+echo "=== Uptime ==="
+uptime
 
-## Disk
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+echo "=== Disk Usage ==="
+df -h
 
-## Logs
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+echo "=== Failed Services ==="
+systemctl --failed || true
+```
 
-## Updates
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Script Design Rules
+- fail clearly
+- avoid silent destructive actions
+- log useful output
+- make validation obvious
+- keep scripts readable
 
+## Validation
+- script runs cleanly
+- output is understandable
+- failures are visible

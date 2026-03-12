@@ -1,41 +1,33 @@
 ﻿# Lab 05 - STIG Hardening
 
-## Purpose
-Apply secure settings and validate operational impact.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Practice validating security changes and identifying operational breakpoints.
 
-## Changes
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Linux VM
+- safe test changes only
+- ability to recover access if SSH settings are changed
 
-## Breakpoints
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Record baseline access and service behavior
+2. Apply a limited hardening change
+3. Test access and application behavior
+4. Review logs and denials
+5. Adjust safely if needed
+6. Document the impact
+
+## Suggested Commands
+```bash
+systemctl status sshd
+cat /etc/ssh/sshd_config
+sshd -t
+getenforce
+ausearch -m avc -ts recent
+firewall-cmd --list-all
+journalctl -xe
+```
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Rollback Thinking
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- You can identify what changed
+- You can explain why the change affected behavior
+- You can restore working access safely

@@ -1,46 +1,33 @@
 ﻿# Lab 06 - Terraform Workflow
 
-## Purpose
-Practice Terraform deployment flow in a controlled lab.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Practice the Terraform workflow from validation through cleanup.
 
-## Init
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Terraform installed
+- Azure credentials or a local safe Terraform example
+- non-production test context only
 
-## Plan
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Review the code
+2. Run format and validation
+3. Run a plan
+4. Review the plan carefully
+5. Apply if safe
+6. Validate resources or outputs
+7. Destroy if this is a temporary lab
 
-## Apply
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Suggested Commands
+```bash
+terraform fmt
+terraform validate
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+```
 
-## Validate
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Destroy
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Validation
+- Plan output is understood before apply
+- Resources or outputs match expectation
+- Cleanup is completed if lab is temporary

@@ -1,41 +1,32 @@
 ﻿# Lab 03 - Disk Pressure
 
-## Purpose
-Simulate disk usage problems and recover safely.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Practice detecting and resolving disk usage problems.
 
-## Setup
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Linux VM
+- safe location for test files
 
-## Detection
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Record current disk usage
+2. Create test files to consume space
+3. Re-check filesystem usage
+4. Identify largest consumers
+5. Clean up safely
+6. Validate recovery
 
-## Cleanup
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Suggested Commands
+```bash
+df -h
+du -sh /*
+find /var/log -type f -size +100M
+find / -xdev -type f -size +500M 2>/dev/null
+```
+
+## Safety Notes
+- Do not fill critical filesystems completely
+- Use a controlled test directory if possible
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- You can identify the source of disk growth
+- Disk usage returns to normal after cleanup

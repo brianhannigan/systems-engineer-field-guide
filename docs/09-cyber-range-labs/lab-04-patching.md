@@ -1,41 +1,32 @@
 ﻿# Lab 04 - Patching
 
-## Purpose
-Practice patching and post-patch verification.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Practice a controlled patching workflow with pre-checks and post-validation.
 
-## Preparation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Linux VM
+- patch-capable package manager
+- reboot allowed if needed
 
-## Patch
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Record current package and service baseline
+2. Check available updates
+3. Apply updates
+4. Reboot if required
+5. Re-run validation checks
+6. Document results
 
-## Reboot
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Suggested Commands
+```bash
+dnf check-update
+dnf update -y
+rpm -qa | sort
+systemctl --failed
+journalctl -p err -b
+```
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- Updates applied successfully
+- System came back cleanly
+- Services are healthy
+- No major new errors were introduced

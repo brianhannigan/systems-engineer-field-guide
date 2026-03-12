@@ -1,46 +1,26 @@
 ﻿# 09 - Cyber Range Labs
 
 ## Purpose
-Design single-VM labs that support practical admin training.
+This section provides practical single-VM lab exercises that simulate real systems administration work.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Design Constraint
+These labs are intentionally designed for environments where only one VM can be used at a time.
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Operational Focus
+- Linux administration
+- Service troubleshooting
+- Disk pressure recovery
+- Patching workflow
+- STIG validation
+- Terraform learning flow
 
-## Linux Baseline
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Recommended Usage
+Run the labs, document what happened, then update the associated docs in this repository.
 
-## Service Failure
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Disk Pressure
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Patching
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## STIG Hardening
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Terraform Workflow
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Files
+- `lab-01-linux-baseline.md`
+- `lab-02-service-failure.md`
+- `lab-03-disk-pressure.md`
+- `lab-04-patching.md`
+- `lab-05-stig-hardening.md`
+- `lab-06-terraform-workflow.md`

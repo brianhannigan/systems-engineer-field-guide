@@ -1,41 +1,30 @@
-﻿# Azure CLI Scripts
+﻿# Azure CLI
 
 ## Purpose
-Track useful Azure CLI commands and automation patterns.
+Capture useful Azure CLI commands for inventory, validation, and troubleshooting.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Common Use Cases
+- list VMs
+- inspect resource groups
+- review NSGs
+- review role assignments
+- check monitoring-related resources
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Example Commands
+```bash
+az account show
+az group list -o table
+az vm list -o table
+az network nsg list -o table
+az role assignment list --all -o table
+```
 
-## Login
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Usage Rules
+- confirm subscription context first
+- prefer read-only commands when investigating
+- capture outputs for evidence when useful
+- avoid destructive commands without validation
 
-## Inventory
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## VM Actions
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Networking
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Monitoring
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Validation
+- command output matches expected environment
+- subscription and scope are correct

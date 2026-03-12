@@ -1,41 +1,21 @@
 ﻿# 10 - Scripts
 
 ## Purpose
-Track useful admin scripts by technology area.
+This section tracks useful script patterns for systems administration work.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Operational Focus
+- Bash admin helpers
+- PowerShell admin helpers
+- Terraform command flow
+- Azure CLI operational usage
+- Troubleshooting script ideas
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Recommended Usage
+Use these docs to capture working script ideas, validation notes, and safe usage patterns before building production-grade automation.
 
-## Bash
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## PowerShell
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Terraform
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Azure CLI
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Troubleshooting
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Files
+- `bash.md`
+- `powershell.md`
+- `terraform.md`
+- `azure-cli.md`
+- `troubleshooting.md`

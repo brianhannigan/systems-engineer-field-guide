@@ -1,31 +1,22 @@
 ﻿# 08 - 12 Week Plan
 
 ## Purpose
-Track the weekly growth plan for the first 12 weeks on the job.
+This section provides a structured 12-week development plan for a systems administrator entering a mixed Linux, Windows, Azure, Terraform, and compliance-focused environment.
 
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
+## Operational Focus
+- Fast infrastructure ramp-up
+- Linux operations confidence
+- Terraform fundamentals
+- Azure operational competence
+- STIG troubleshooting
+- Patch and upgrade readiness
+- Vulnerability remediation workflow
+- Practical lab repetition
 
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
+## Recommended Usage
+Use these files as your weekly execution guide. Adjust them based on what you discover in your actual environment.
 
-## Weeks 1-4
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Weeks 5-8
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Weeks 9-12
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+## Files
+- `weeks-01-04.md`
+- `weeks-05-08.md`
+- `weeks-09-12.md`

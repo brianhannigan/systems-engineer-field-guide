@@ -1,41 +1,35 @@
 ﻿# Lab 02 - Service Failure
 
-## Purpose
-Simulate and troubleshoot a failed service.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Simulate and troubleshoot a failed service using a repeatable workflow.
 
-## Failure Injection
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Linux VM
+- a service you can safely stop/start or misconfigure in lab
 
-## Diagnosis
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Identify the target service
+2. Stop or break the service safely
+3. Review service status
+4. Review logs
+5. Fix the issue
+6. Restart and validate
 
-## Fix
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Suggested Commands
+```bash
+systemctl status <service>
+journalctl -u <service> -n 100 --no-pager
+journalctl -xe
+ss -tulpn
+```
+
+## Failure Ideas
+- bad config syntax
+- wrong file permissions
+- service disabled
+- port conflict
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- Service starts successfully
+- Logs are clean after fix
+- Expected port or app behavior is restored

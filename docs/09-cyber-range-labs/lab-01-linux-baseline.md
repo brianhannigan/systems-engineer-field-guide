@@ -1,41 +1,40 @@
 ﻿# Lab 01 - Linux Baseline
 
-## Purpose
-Create a clean Linux baseline setup and validation workflow.
-
-## Scope
-- Define what this component covers
-- Identify operational responsibilities
-- Capture common risks, failure points, and validation steps
-
-## Recommended Outcome
-- Clear field guide content
-- Practical commands or workflows
-- Troubleshooting guidance
-- Validation checklist
-
 ## Objective
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+Establish a healthy Linux baseline and verify core admin checks.
 
-## Prereqs
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Prerequisites
+- Access to a Linux VM
+- sudo access
+- basic shell familiarity
 
-## Steps
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
+## Tasks
+1. Confirm hostname and uptime
+2. Review running services
+3. Check disk usage
+4. Check IP addressing and routes
+5. Review recent logs
+6. Confirm firewall state
+7. Record findings
+
+## Suggested Commands
+```bash
+hostnamectl
+uptime
+systemctl --failed
+df -h
+lsblk
+ip addr
+ip route
+journalctl -p err -b
+firewall-cmd --state
+```
+
+## Expected Outcome
+You can describe the VM's current health and baseline configuration.
 
 ## Validation
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
-## Common Issues
-- Add real-world notes here
-- Add commands, workflows, or examples
-- Add validation or troubleshooting notes
-
+- No unexplained failed services
+- Disk is healthy
+- Network is understood
+- No major boot errors are present
