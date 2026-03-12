@@ -1,4 +1,4 @@
-﻿# Systems Admin First 90 Days Field Guide
+# Systems Admin First 90 Days Field Guide
 
 > A portfolio-grade systems administration field guide focused on Linux, Azure, Terraform, STIG hardening, patching, upgrades, vulnerability remediation, and practical single-VM lab workflows.
 
@@ -55,7 +55,7 @@ This project is intended to demonstrate:
 - scripts/ -> example automation helpers
 - diagrams/ -> workflow and architecture visuals
 - ssets/ -> screenshots, supporting graphics, and repo visuals
-- 	ools/ -> repo-building helper scripts
+- tools/ -> repo-building helper scripts
 
 ## Featured workflow diagrams
 - [Infrastructure Discovery Workflow](diagrams/infrastructure/infrastructure-discovery-workflow.md)
