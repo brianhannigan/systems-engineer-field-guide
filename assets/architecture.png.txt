@@ -1,0 +1,2 @@
+﻿This file is a placeholder.
+Export diagrams/infrastructure.drawio or diagrams/infrastructure.mmd to PNG and replace this file.

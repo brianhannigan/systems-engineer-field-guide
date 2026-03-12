@@ -1,0 +1,2 @@
+﻿This file is a placeholder.
+Export diagrams/monitoring.drawio or diagrams/monitoring.mmd to PNG and replace this file.
