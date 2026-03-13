@@ -236,12 +236,11 @@ Future improvements planned:
 
 ## Author
 
-Brian Hannigan\
-Cybersecurity Engineer & Systems Architect
+Brian Hannigan  
+Cybersecurity Engineer & Systems Architect  
 
-GitHub: https://github.com/brianhannigan\
-Repository:
-https://github.com/brianhannigan/systems-admin-field-guide
+GitHub: https://github.com/brianhannigan  
+Repository: https://github.com/brianhannigan/systems-engineer-field-guide
 
 ------------------------------------------------------------------------
 
