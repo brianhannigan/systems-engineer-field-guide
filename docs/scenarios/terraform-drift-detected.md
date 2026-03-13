@@ -1,4 +1,4 @@
-﻿# Scenario â€” Terraform Drift Detected
+﻿# Scenario Terraform Drift Detected
 
 ## Problem
 The deployed infrastructure no longer matches the Terraform configuration or state.
