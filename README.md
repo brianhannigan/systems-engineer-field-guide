@@ -274,3 +274,25 @@ Use this command reference as a quick operational aid during live troubleshootin
 - [Systems Engineer Command Reference](docs/reference/systems-engineer-command-reference.md)
 - [Systems Engineer Cheat Sheet](docs/reference/systems-engineer-cheat-sheet.md)
 
+## Security Incident Workflow
+
+This section connects infrastructure operations to security-aware investigation, containment, remediation, and recovery.
+
+- [Security Incident Workflow](docs/workflows/security-incident-workflow.md)
+- [Change Validation Workflow](docs/workflows/change-validation-workflow.md)
+- [Security Diagram Placeholder](diagrams/placeholders/security-incident-workflow.md)
+
+## Operational Metrics
+
+These documents help measure engineering performance, remediation efficiency, and service reliability.
+
+- [Engineering Metrics](docs/metrics/engineering-metrics.md)
+- [Operational Metrics Scorecard Template](docs/metrics/operational-metrics-scorecard-template.md)
+
+## Infrastructure Architecture
+
+This section explains the systems engineering stack represented throughout the guide.
+
+- [Infrastructure Architecture Overview](docs/architecture/infrastructure-architecture-overview.md)
+- [Architecture Diagram Placeholder](diagrams/placeholders/infrastructure-architecture.md)
+
