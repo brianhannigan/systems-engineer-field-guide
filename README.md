@@ -44,6 +44,19 @@ A portfolio-grade systems engineering handbook focused on:
 ------------------------------------------------------------------------
 
 ## What This Project Demonstrates
+
+This repository showcases:
+
+• structured systems thinking  
+• security-aware systems administration  
+• production-minded troubleshooting discipline  
+• operational workflows and validation habits  
+• infrastructure automation mindset  
+• compliance-aware engineering practices  
+• documentation maturity expected in enterprise and government environments  
+
+---
+
 ## Real-World Skills Demonstrated
 
 This repository demonstrates practical infrastructure engineering skills used in enterprise and government environments:
@@ -55,17 +68,7 @@ This repository demonstrates practical infrastructure engineering skills used in
 • responding to infrastructure security incidents  
 • performing vulnerability remediation workflows  
 • documenting repeatable troubleshooting playbooks  
-• building operational runbooks and reference documentation
-This repository showcases:
-
-• structured systems thinking\
-• security-aware systems administration\
-• production-minded troubleshooting discipline\
-• operational workflows and validation habits\
-• infrastructure automation mindset\
-• compliance-aware engineering practices\
-• documentation maturity expected in enterprise and government
-environments
+• building operational runbooks and reference documentation  
 
 ------------------------------------------------------------------------
 
