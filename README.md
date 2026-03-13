@@ -11,13 +11,13 @@
 ## Architecture & Workflow Diagrams
 
 ### Infrastructure Architecture
-![Infrastructure Architecture](assets/infrastructure_architecture.svg)
+![](assets/infrastructure_architecture.svg)
 
 ### Security Incident Workflow
-![Security Incident Workflow](assets/security_incident_workflow.svg)
+![](assets/security_incident_workflow.svg)
 
 ### Terraform Deployment Flow
-![Terraform Deployment Flow](assets/terraform_deployment_flow.svg)
+![](assets/terraform_deployment_flow.svg)
 
 ## Engineering Domains Covered
 
