@@ -1,5 +1,13 @@
 # Systems Engineer Field Guide
+# Systems Engineer Field Guide
 
+![Linux](https://img.shields.io/badge/Linux-Administration-blue)
+![Azure](https://img.shields.io/badge/Azure-Infrastructure-blue)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![STIG](https://img.shields.io/badge/STIG-Hardening-red)
+![Security](https://img.shields.io/badge/Security-Operations-darkgreen)
+![Infrastructure](https://img.shields.io/badge/Infrastructure-Engineering-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 ## Architecture & Workflow Diagrams
 
 ### Infrastructure Architecture
