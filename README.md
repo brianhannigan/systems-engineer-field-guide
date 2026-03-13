@@ -158,13 +158,21 @@ Validation & Continuous Improvement
 
 That lifecycle is reinforced through:
 
-• scenarios\
-• playbooks\
-• metrics\
-• case studies\
-• labs\
-• architecture guidance\
-• script-driven repo automation
+```text
+Infrastructure Discovery
+        ↓
+Documentation
+        ↓
+Hardening & Compliance
+        ↓
+Automation
+        ↓
+Monitoring & Logging
+        ↓
+Vulnerability Remediation
+        ↓
+Validation & Continuous Improvement
+```
 
 ------------------------------------------------------------------------
 
