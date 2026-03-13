@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/systems_engineer_field_guide_header.svg" alt="Systems Engineer Field Guide Header" width="100%">
+</p>
 # Systems Engineer Field Guide
 
 ![Linux](https://img.shields.io/badge/Linux-Administration-blue)
