@@ -83,22 +83,20 @@ This repository is designed for:
 • Security-minded administrators supporting hardened environments
 
 ------------------------------------------------------------------------
-
 ## Start Here
 
 Use this reading path to get the most value from the repository:
 
-1.  Systems Engineer Operational Model\
-2.  [Real Infrastructure Scenarios](docs/scenarios/README.md)\
-3.  [Troubleshooting Playbooks](docs/playbooks/README.md)\
-4.  [Example Command Reference](docs/reference/systems-engineer-command-reference.md)\
-5.  [Security Incident Workflow](docs/workflows/security-incident-workflow.md)\
-6.  [Operational Metrics](docs/metrics/engineering-metrics.md)\
-7.  [Infrastructure Architecture](docs/architecture/infrastructure-architecture-overview.md)\
-8.  [Case Studies](docs/case-studies/)\
-9.  [Lab Walkthroughs](docs/labs/README.md)\
-10. [Systems Engineer Cheat Sheet](docs/components/11-daily-30-minute-practice-routine.md)
-
+1. Systems Engineer Operational Model  
+2. Real Infrastructure Scenarios  
+3. Troubleshooting Playbooks  
+4. Example Command Reference  
+5. Security Incident Workflow  
+6. Operational Metrics  
+7. Infrastructure Architecture  
+8. Case Studies  
+9. Lab Walkthroughs  
+10. Systems Engineer Cheat Sheet  
 ------------------------------------------------------------------------
 
 ## Key Engineering Sections
